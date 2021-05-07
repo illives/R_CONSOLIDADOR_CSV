@@ -85,4 +85,4 @@ class consolidar:
 				except:
 					break
 		df2 = pd.DataFrame(Geral)
-		df2.to_csv(arquivo + 'Total_Agend.CSV', header = 1, sep = ';', index = False)
+		df2.to_csv(arquivo + 'Consolidado.CSV', header = 1, sep = ';', index = False)
