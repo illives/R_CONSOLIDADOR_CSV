@@ -60,15 +60,10 @@ class agendamento(arquivo):
 class consolidar:
 
 	def __init__(self, arquivo):
-		"""
-		Consolida os arquivos de Agendamento e Cancelamento
-		tem duas instancias sendo: agendamento() e cancelamento()
-		"""
 		arquivo.__init__(self, arquivo)
 
 	def csv_files(arquivo):
 		"""
-		Consolida os arquivos recebidos
 		(Path = Diretorio com os arquivos)
 		"""
 		Geral = []
